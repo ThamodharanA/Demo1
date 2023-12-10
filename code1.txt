@@ -1,0 +1,180 @@
+Welcome@DESKTOP-SV618LM MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Welcome/.git/
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ git config --global user.name "ThamodharanA"
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ git config --global user.email "thamodharan@gmail.com"
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ cd Desktop/
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop (master)
+$ mkdir NewRepository
+
+
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git init
+Initialized empty Git repository in C:/Users/Welcome/Desktop/NewRepository/.git/
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git add .           (warning can be ignored)
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git commit -m "First_Commit"
+On branch master                      (warning can be ignored)
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git remote add origin https://github.com/ThamodharanA/Demo1.git
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git branch -M main
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git add .
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ ssh-keygen -t rsa -C "thamodharan@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Welcome/.ssh/id_rsa): PermanentKey
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in PermanentKey
+Your public key has been saved in PermanentKey.pub
+The key fingerprint is:
+SHA256:ESQZ9QkkYUdZfVwj0bx4hpxlJWBpx5BwKkztIlNjxWM thamodharan@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|      *OX*+o=X=o+|
+|     ..*=+E== **.|
+|       o+++o.o* .|
+|      o .o.  = + |
+|       oS.    o  |
+|                 |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://AAAAB3NzaC1yc2EAAAADAQABAAABgQCaLxv+ga/WSdDz52npKAIQHYAJV5pmDpMK6jz0F75LulReJj2dZkf3z9WDAm/qdqF9fJzlQLQ3EBQloFTZeGXQVtsRm1gbgUgJc6tY+FzlrvbZ1ymwoFSOG8HoGw/BQjUNLip8A6lIqreekvYmJ1BiWaPWQqdi7i+B6KujH736jL/iloZY9STOTGEOemRzv8RXG03ZjMn35x4c//Zqs2wePduxrItMCHz/HeP6Uu1GQ7Lcc0dxkZ1a901NXR5f0VwMhz6UvBn1g14ZGAJUA+UJT7ooYE95k7ch5UGdWaL2W2DhfWXJUur1Ja9uK16DQu3Jgo9UtKf4RMEgVrf7/tePMhoLVh4EJJgZYkSCOd8UNLqvRi8h96B0vef3SxYbh6ivY+uS6POdIaj2aqniqzUUj2f9+ZNZRNH8EoS025sEP3Un6hpoCBtjccyGA+DvVHAXynTrYTOk3EfKmv0ThpUsHpeHTdDGptDcXAcTbVRu+occPdfmf++d+uveuyiZ7bs= thamodharan@gmail.comgithub.com/ThamodharanA/Demo1.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://AAAAB3NzaC1yc2EAAAADAQABAAABgQCaLxv+ga/WSdDz52npKAIQHYAJV5pmDpMK6jz0F75LulReJj2dZkf3z9WDAm/qdqF9fJzlQLQ3EBQloFTZeGXQVtsRm1gbgUgJc6tY+FzlrvbZ1ymwoFSOG8HoGw/BQjUNLip8A6lIqreekvYmJ1BiWaPWQqdi7i+B6KujH736jL/iloZY9STOTGEOemRzv8RXG03ZjMn35x4c//Zqs2wePduxrItMCHz/HeP6Uu1GQ7Lcc0dxkZ1a901NXR5f0VwMhz6UvBn1g14ZGAJUA+UJT7ooYE95k7ch5UGdWaL2W2DhfWXJUur1Ja9uK16DQu3Jgo9UtKf4RMEgVrf7/tePMhoLVh4EJJgZYkSCOd8UNLqvRi8h96B0vef3SxYbh6ivY+uS6POdIaj2aqniqzUUj2f9+ZNZRNH8EoS025sEP3Un6hpoCBtjccyGA+DvVHAXynTrYTOk3EfKmv0ThpUsHpeHTdDGptDcXAcTbVRu+occPdfmf++d+uveuyiZ7bs= thamodharan@gmail.com
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add .
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add https://github.com/ThamodharanA/Demo1.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add "https://github.com/ThamodharanA/Demo1.git"
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+
+git add .                   (should be done)
+
+
+
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit -m "intial Commit"
+[main (root-commit) f26a642] intial Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ContinousDD/Hi.txt
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 260 bytes | 260.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ThamodharanA/Demo1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$

@@ -1,0 +1,314 @@
+Welcome@DESKTOP-SV618LM MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Welcome/.git/
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ ls
+ 2_predict_US_election.ipynb
+'3D Objects'/
+ AppData/
+'Application Data'@
+'Arrhythmia Classification.ipynb'
+'Arrythmia Detection from ECG Data.ipynb'
+ CC_6_hate_speech_detection.ipynb
+ CC_Lab10.ipynb
+ CC_Lab5_OnlineFraudDetection.ipynb
+ CC_Lab8.ipynb
+ Contacts/
+ Cookies@
+ Demo1/
+ Desktop/
+ Documents/
+ Downloads/
+'ECG Abnormality Prediction LGBM.ipynb'
+ Favorites/
+ GWA_LAb4_Practice.ipynb
+ GWA_Lab1.ipynb
+ GWA_Lab2,3.ipynb
+ GWA_Lab3_Practice.ipynb
+ GWA_Lab5_Practice.ipynb
+ GWA_Lab6_Practice.ipynb
+ GWA_Lab7.ipynb
+ GWA_Lab8.ipynb
+ Graphs_centralities.ipynb
+'Heart attack prediction for different ML models.ipynb'
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - K L University'/
+ OnlineRetail.csv
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled10.ipynb
+ Untitled2.ipynb
+ Untitled3.ipynb
+ Videos/
+ anaconda3/
+ clf1.pkl
+ dolphins.gml.txt
+ dolphins.png
+ filename.png
+ filename1.png
+ filename2.png
+ filename3.png
+ filename4.png
+ filename5.png
+ filename6.png
+ football.net.txt
+ gwa_lab3_practice.py
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ git remote set-url origin https://github.com/ThamodharanA/Demo1.git
+error: No such remote 'origin'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ ssh https://github.com/ThamodharanA/Demo1.git
+ssh: Could not resolve hostname https://github.com/ThamodharanA/Demo1.git: Name or service not known
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ git config --global user.name "ThamodharanA"
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ git config --global user.email "thamodharan@gmail.com"
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ cd Desktop/
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop (master)
+$ ls
+ 03Nov23.jpg
+ 1.jpg
+ 1111.jpg
+ 2.jpg
+ 232.jpg
+ 233.jpg
+ 234.jpg
+ 235.jpg
+ 4444.jpg
+ 7651-23-24-Odd.jpg
+ 7651.txt
+ 7651_TimeTable.jpg
+ DTI1/
+'Devops Book template (3).docx'
+ FDP/
+ Faces_tell_all.pdf
+ KSA/
+'My Leaves'/
+ NGO/
+ Y21_III_EVEN_SEMESTER_REGISTRATIONS_2023_2024.xlsx
+ cancer/
+ coun.xlsx
+ desktop.ini
+'even sem 23-24'/
+ formativeexammarks_ha.csv
+ gwa-additional/
+ recordings/
+'~$Microsoft Azure PPT.pptx'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop (master)
+$ mkdir NewRepository
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop (master)
+$ cd NewRepository
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ ls
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git init
+Initialized empty Git repository in C:/Users/Welcome/Desktop/NewRepository/.git/
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ ls
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git add .
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git commit -m "First_Commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git remote add origin https://github.com/ThamodharanA/Demo1.git
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (master)
+$ git branch -M main
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ ^C
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git add .
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ ssh-keygen -t rsa -C "thamodharan@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Welcome/.ssh/id_rsa): PermanentKey
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in PermanentKey
+Your public key has been saved in PermanentKey.pub
+The key fingerprint is:
+SHA256:ESQZ9QkkYUdZfVwj0bx4hpxlJWBpx5BwKkztIlNjxWM thamodharan@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|      *OX*+o=X=o+|
+|     ..*=+E== **.|
+|       o+++o.o* .|
+|      o .o.  = + |
+|       oS.    o  |
+|                 |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCaLxv+ga/WSdDz52npKAIQHYAJV5pmDpMK6jz0F75LulReJj2dZkf3z9WDAm/qdqF9fJzlQLQ3EBQloFTZeGXQVtsRm1gbgUgJc6tY+FzlrvbZ1ymwoFSOG8HoGw/BQjUNLip8A6lIqreekvYmJ1BiWaPWQqdi7i+B6KujH736jL/iloZY9STOTGEOemRzv8RXG03ZjMn35x4c//Zqs2wePduxrItMCHz/HeP6Uu1GQ7Lcc0dxkZ1a901NXR5f0VwMhz6UvBn1g14ZGAJUA+UJT7ooYE95k7ch5UGdWaL2W2DhfWXJUur1Ja9uK16DQu3Jgo9UtKf4RMEgVrf7/tePMhoLVh4EJJgZYkSCOd8UNLqvRi8h96B0vef3SxYbh6ivY+uS6POdIaj2aqniqzUUj2f9+ZNZRNH8EoS025sEP3Un6hpoCBtjccyGA+DvVHAXynTrYTOk3EfKmv0ThpUsHpeHTdDGptDcXAcTbVRu+occPdfmf++d+uveuyiZ7bs= thamodharan@gmail.com
+bash: ssh-rsa: command not found
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://AAAAB3NzaC1yc2EAAAADAQABAAABgQCaLxv+ga/WSdDz52npKAIQHYAJV5pmDpMK6jz0F75LulReJj2dZkf3z9WDAm/qdqF9fJzlQLQ3EBQloFTZeGXQVtsRm1gbgUgJc6tY+FzlrvbZ1ymwoFSOG8HoGw/BQjUNLip8A6lIqreekvYmJ1BiWaPWQqdi7i+B6KujH736jL/iloZY9STOTGEOemRzv8RXG03ZjMn35x4c//Zqs2wePduxrItMCHz/HeP6Uu1GQ7Lcc0dxkZ1a901NXR5f0VwMhz6UvBn1g14ZGAJUA+UJT7ooYE95k7ch5UGdWaL2W2DhfWXJUur1Ja9uK16DQu3Jgo9UtKf4RMEgVrf7/tePMhoLVh4EJJgZYkSCOd8UNLqvRi8h96B0vef3SxYbh6ivY+uS6POdIaj2aqniqzUUj2f9+ZNZRNH8EoS025sEP3Un6hpoCBtjccyGA+DvVHAXynTrYTOk3EfKmv0ThpUsHpeHTdDGptDcXAcTbVRu+occPdfmf++d+uveuyiZ7bs= thamodharan@gmail.comgithub.com/ThamodharanA/Demo1.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main                                                       error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://AAAAB3NzaC1yc2EAAAADAQABAAABgQCaLxv+ga/WSdDz52npKAIQHYAJV5pmDpMK6jz0F75LulReJj2dZkf3z9WDAm/qdqF9fJzlQLQ3EBQloFTZeGXQVtsRm1gbgUgJc6tY+FzlrvbZ1ymwoFSOG8HoGw/BQjUNLip8A6lIqreekvYmJ1BiWaPWQqdi7i+B6KujH736jL/iloZY9STOTGEOemRzv8RXG03ZjMn35x4c//Zqs2wePduxrItMCHz/HeP6Uu1GQ7Lcc0dxkZ1a901NXR5f0VwMhz6UvBn1g14ZGAJUA+UJT7ooYE95k7ch5UGdWaL2W2DhfWXJUur1Ja9uK16DQu3Jgo9UtKf4RMEgVrf7/tePMhoLVh4EJJgZYkSCOd8UNLqvRi8h96B0vef3SxYbh6ivY+uS6POdIaj2aqniqzUUj2f9+ZNZRNH8EoS025sEP3Un6hpoCBtjccyGA+DvVHAXynTrYTOk3EfKmv0ThpUsHpeHTdDGptDcXAcTbVRu+occPdfmf++d+uveuyiZ7bs= thamodharan@gmail.com
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add .
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add https://github.com/ThamodharanA/Demo1.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add "https://github.com/ThamodharanA/Demo1.git"
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ThamodharanA/Demo1.git'
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit -m "intial Commit"
+[main (root-commit) f26a642] intial Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ContinousDD/Hi.txt
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 260 bytes | 260.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ThamodharanA/Demo1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$
