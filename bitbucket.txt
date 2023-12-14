@@ -1,0 +1,79 @@
+
+Welcome@DESKTOP-SV618LM MINGW64 ~ (master)
+$ cd Desktop
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop (main)
+$ cd NewRepository
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Welcome/Desktop/NewRepository/.git/
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git add .
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://ThamodharanA@bitbucket.org/thamodharana/123.git
+error: remote origin already exists.
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git add .
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit -m "my first commit"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://ThamodharanA@bitbucket.org/thamodharana/123.git
+error: remote origin already exists.
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://ThamodharanA@bitbucket.org/thamodharana/1234.git
+error: remote origin already exists.
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Welcome@DESKTOP-SV618LM MINGW64 ~/Desktop/NewRepository (main)
+$ git remote add origin https://ThamodharanA@bitbucket.org/thamodharana/1234.git
+error: remote origin already exists.
